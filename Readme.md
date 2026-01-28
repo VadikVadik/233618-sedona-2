@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Вадим Голубев](https://up.htmlacademy.ru/htmlcss-individual/2/user/233618).
-* Наставник: `Неизвестно`.
+* Наставник: [Оксана Вайнруб](https://htmlacademy.ru/profile/id166797).
 
 ---
 
