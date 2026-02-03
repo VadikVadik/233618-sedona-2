@@ -20,10 +20,26 @@ body {
   line-height: 21px;
   background-color: #f2f2f2;
   color: #000;
+  margin: 0;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.main-header, .main-index, .main-inner, .page-footer {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .main-header, .main-index {
   background-color: #fff;
+}
+
+.navigation-list, .advantages-list, .services-list, .social-links-list,
+.breadcrumbs, .catalog-filter-list, .view-mode-list, .hotel-list, .pagination {
+  list-style: none;
+  padding-left: 0;
 }
 
 .navigation-link {
@@ -47,12 +63,21 @@ body {
   border: none;
 }
 
+.favorites-amount {
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #7DB54F;
+}
+
 .main-index {
   text-align: center;
 }
 
 .hero {
   background-image: url(../images/hero-background.jpg);
+  background-color: #ca9f8a;
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -101,7 +126,7 @@ body {
 
 .subscription {
   background-image: url(../images/subscribe-background.jpg);
-  background-color: #fff;
+  background-color: #ca9f8a;
   background-repeat: no-repeat;
   color: #fff;
 }
@@ -112,6 +137,28 @@ body {
 
 .page-footer {
   background-color: #fff;
+}
+
+.social-link {
+  display: block;
+  width: 47.33px;
+  height: 40px;
+  background-position: center;
+}
+
+.vk {
+  background-image: url(../images/vk.svg);
+  background-repeat: no-repeat;
+}
+
+.tg {
+  background-image: url(../images/telegram.svg);
+  background-repeat: no-repeat;
+}
+
+.youtube {
+  background-image: url(../images/youtube.svg);
+  background-repeat: no-repeat;
 }
 
 .footer-phone-number {
@@ -128,7 +175,7 @@ body {
 }
 
 .filter-container {
-  background-color: #756b69;
+  background-color: #756157;
   background-image: url(../images/filter-background.jpg);
   background-repeat: no-repeat;
   color: #fff;
@@ -225,6 +272,7 @@ body {
 
 .subscription-inner {
   background-image: none;
+  background-color: #fff;
   color: #000;
 }
 
