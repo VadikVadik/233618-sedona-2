@@ -270,8 +270,12 @@ img {
   color: #333;
 }
 
-.advantages, .services .section-description {
+.services .section-description {
   margin-bottom: 62px;
+}
+
+.services {
+  padding-top: 62px;
 }
 
 .advantages-list, .services-list {
@@ -389,11 +393,8 @@ img {
   flex-direction: row-reverse;
 }
 
-.services {
-  margin-bottom: 96px;
-}
-
 .deals {
+  padding-top: 96px;
   margin-bottom: 91px;
 }
 
