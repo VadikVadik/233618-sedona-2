@@ -291,18 +291,21 @@ img {
 .advantages-item:not(.advantages-item-extended),
 .services-item {
   width: 400px;
-  min-height: 385px;
   box-sizing: border-box;
-  padding: 102px 85px;
   display: flex;
   flex-direction: column;
+}
+
+.advantages-item-content,
+.advantages-item:not(.advantages-item-extended) {
+  min-height: 385px;
+  padding: 102px 85px;
   justify-content: center;
 }
 
 .services-item {
   min-height: 283px;
-  padding-bottom: 81px;
-  padding-top: 182px;
+  padding: 182px 85px 81px;
   justify-content: end;
 }
 
